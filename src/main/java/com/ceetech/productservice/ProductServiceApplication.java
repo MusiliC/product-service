@@ -1,13 +1,13 @@
-package com.ceetech.onlineshop;
+package com.ceetech.productservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OnlineshopApplication {
+public class ProductServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OnlineshopApplication.class, args);
+		SpringApplication.run(ProductServiceApplication.class, args);
 	}
 
 }

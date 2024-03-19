@@ -1,4 +1,4 @@
-package com.ceetech.onlineshop.model;
+package com.ceetech.productservice.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

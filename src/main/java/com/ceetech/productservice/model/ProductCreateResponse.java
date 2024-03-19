@@ -1,4 +1,4 @@
-package com.ceetech.onlineshop.model;
+package com.ceetech.productservice.model;
 
 import java.math.BigDecimal;
 
@@ -7,12 +7,12 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class ProductCreateRequest {
-     private String name;
-  private BigDecimal price;
+public class ProductCreateResponse {
+    private Integer id;
+    private String name;
+    private BigDecimal price;
 }

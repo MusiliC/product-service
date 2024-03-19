@@ -1,4 +1,4 @@
-package com.ceetech.onlineshop.controller;
+package com.ceetech.productservice.controller;
 
 import java.util.List;
 
@@ -8,10 +8,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ceetech.onlineshop.model.GenericResponseApi;
-import com.ceetech.onlineshop.model.ProductCreateRequest;
-import com.ceetech.onlineshop.model.ProductCreateResponse;
-import com.ceetech.onlineshop.service.ProductService;
+import com.ceetech.productservice.model.GenericResponseApi;
+import com.ceetech.productservice.model.ProductCreateRequest;
+import com.ceetech.productservice.model.ProductCreateResponse;
+import com.ceetech.productservice.service.ProductService;
 
 import lombok.extern.slf4j.Slf4j;
 

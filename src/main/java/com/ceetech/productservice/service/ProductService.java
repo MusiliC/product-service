@@ -1,9 +1,9 @@
-package com.ceetech.onlineshop.service;
+package com.ceetech.productservice.service;
 
 import java.util.List;
 
-import com.ceetech.onlineshop.model.ProductCreateRequest;
-import com.ceetech.onlineshop.model.ProductCreateResponse;
+import com.ceetech.productservice.model.ProductCreateRequest;
+import com.ceetech.productservice.model.ProductCreateResponse;
 
 public interface ProductService {
 

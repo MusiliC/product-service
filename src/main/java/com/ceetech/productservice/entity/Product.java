@@ -1,4 +1,4 @@
-package com.ceetech.onlineshop.entity;
+package com.ceetech.productservice.entity;
 
 import java.math.BigDecimal;
 

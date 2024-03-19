@@ -1,15 +1,15 @@
-package com.ceetech.onlineshop.service.impl;
+package com.ceetech.productservice.service.impl;
 
 import java.util.List;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.stereotype.Service;
 
-import com.ceetech.onlineshop.entity.Product;
-import com.ceetech.onlineshop.model.ProductCreateRequest;
-import com.ceetech.onlineshop.model.ProductCreateResponse;
-import com.ceetech.onlineshop.repository.ProductRepository;
-import com.ceetech.onlineshop.service.ProductService;
+import com.ceetech.productservice.entity.Product;
+import com.ceetech.productservice.model.ProductCreateRequest;
+import com.ceetech.productservice.model.ProductCreateResponse;
+import com.ceetech.productservice.repository.ProductRepository;
+import com.ceetech.productservice.service.ProductService;
 
 @Service
 public class ProductServiceImpl implements ProductService {
